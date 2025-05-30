@@ -1,0 +1,131 @@
+baseURL = "/"
+title = "MinimalBag"
+languageCode = "fr"
+defaultContentLanguage = "fr"
+paginate = "7"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "MinimalBag" # title for frontpage, may include image
+description = 'Porter avec Sens,<br />Agir avec Style !'
+# startbuttonText = "Blog"
+# startbuttonLink = "/posts/test.md"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.60.0"
+
+
+[[params.menu.main]]
+url = '/'
+title = "Accueil"
+
+[[params.menu.main]]
+url = '/achat'
+title = "Achat"
+
+# [[params.menu.main]]
+# url = '/projets/'
+# title = "~/Projets"
+
+[params.one]
+enable = true
+title = "Qui sommes-nous ?"
+body = '''
+Écologiques et économiques, nous nous démarquons par la création de tote bags originaux qui respectent à la fois vos demandes et la nature !
+
+Tous nos clients sont satisfaits de MinimalBag, pourquoi pas vous ?
+'''
+
+[[params.one.icon]]
+icon = "solid fa-star"
+style = "0"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "solid fa-star"
+style = "0"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "solid fa-star"
+style = "0"
+label = "Lorem"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/mb02.jpg"
+img_alt = "blurry background: white/grey"
+title = "Le sens du style n'est pas un coup contre la nature"
+body = "Nous sommes conscient de l'impacte environnemental que peut avoir la création de Tote Bag, c'est pouquoi MinimalBag existe !"
+
+[[params.two.section]]
+img = "img/logo2.png"
+title = "Pour nous, la qualité et le prix abordable vont de pair"
+body = "Enfin, un service vous permet de respecter l'écologie à un prix abordable. Nous souhaitons montrer l'exemple et permettre à chacun de penser à la planète et non à son porte-feuille."
+
+[[params.two.section]]
+img = "img/mb04.jpg"
+title = "Nous sommes présents dans toute la France !"
+body = "Lyon ? Bordeaux ? Metz ? Ne vous inquiétez pas, la distance qui nous sépare ne sera pas un frein, mais un pont qui pourrait nous relier."
+
+[params.three]
+enable = true
+title = "Chez MinimalBag, nous avons des rôles à jouer !"
+body = '''
+Si vous êtes friand de détails, voici nos valeurs :
+'''
+
+[[params.three.feature]]
+icon = "fa-square"
+title = "Transparence"
+body = "Nous sommes clairs sur la façon dont les tote bags sont construits. Pas convaincu ? Contactez-nous : il n'y a aucun secret, juste de la transparence."
+
+[[params.three.feature]]
+icon = "solid fa-seedling"
+title = "Stop Greenwashing"
+body = "Nous vendons de l'écologie, et non du greenwashing. Le respect de la planète est la principale raison de l'existence de MinimalBag."
+
+[[params.three.feature]]
+icon = "solid fa-building"
+title = "Indispensac"
+body = "Cette entreprise certifié patrimoine vivant transforme nos fils GRS (Global Recycled Standard) en sac !"
+
+[[params.three.feature]]
+icon = "solid fa-tree"
+title = "Au naturel"
+body = "Button recyclé composé à 50 % de fibres végétales, tissus GOTS, fil bio ! Chez nous, c'est soit végétal, recyclé ou bio !"
+
+[[params.three.feature]]
+icon = "solid fa-earth-europe"
+title = "100% Français"
+body = "Cocorico ! Fiers de notre fabrication française, nous continuerons à développer MinimalBag ici, pour toujours."
+
+[[params.three.feature]]
+icon = "solid fa-bag-shopping"
+title = "Quoi encore..."
+body = "Et avec tout ça ? Nos tote bags ont aussi des poches ! Eh oui, rien que ça !"
+
+[params.contact]
+enable = true
+title = "Envie de nous dire bonjour ?"
+body = "C'est avec joie qu'on vous liras ! \n\n 40 rue de Verdun 54800 Mars-la-Tour \n\n +33 7 12 34 56 78 \n\n contact@minimalbag.com"
+email = "contact@minimalbag.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = "_minimalbag_"
+dribble = ""

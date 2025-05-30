@@ -1,0 +1,4 @@
+baseURL = 'https://minimalbag.com/'
+languageCode = 'fr'
+title = "MinimalBag"
+theme = 'spectral'
