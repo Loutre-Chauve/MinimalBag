@@ -29,7 +29,7 @@ url = '/'
 title = "Accueil"
 
 [[params.menu.main]]
-url = '/achat'
+url = '/buy'
 title = "Achat"
 
 # [[params.menu.main]]
