@@ -5,6 +5,9 @@ defaultContentLanguage = "fr"
 paginate = "7"
 #googleAnalytics = "G-XXXXXXXXXX"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
 fancyTitle = "MinimalBag" # title for frontpage, may include image
 description = 'Porter avec Sens,<br />Agir avec Style !'
